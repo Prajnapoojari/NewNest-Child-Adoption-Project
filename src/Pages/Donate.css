@@ -1,0 +1,124 @@
+.donation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  background: url('../Images/Cause5.jpg') no-repeat center center/cover;
+  position: relative;
+}
+
+.donation-main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  position: relative;
+}
+
+.donation-left {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  width: 100%;
+}
+
+.donation-left h1,
+.donation-left h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.donation-amounts {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.donation-amounts button {
+  background: #ff9800;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.donation-amounts button.active,
+.donation-amounts button:hover {
+  background: #e68900;
+}
+
+.donation-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.donation-button {
+  background: #ff9800;
+  color: white;
+  padding: 14px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.donation-button:hover {
+  background: #e68900;
+}
+
+.donation-right {
+  background: #ff9800;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.donation-right h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.donation-right p {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  max-width: 80%;
+}
+
+.donation-right p::before {
+  content: "✔";
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 1.4rem;
+}
